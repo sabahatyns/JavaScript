@@ -12,4 +12,3 @@ let isLoggedIn = true; // boolean
 console.log(typeof "sabahat") // typeof used to find data type of a value or variable
 console.log(typeof null) // typeof null js gives is object --remember that
 console.log(typeof undefined) // typeof undefined js gives is undefined 
-
