@@ -5,7 +5,7 @@ accountCity = "Lahore";
 
 
 //try to change value of above  variables
-//accountId = 6;
+//accountId = 6; // cahnging constant val not allowed
 accountEmail =  "syounas7@gmail.com";
 accountPassword = 56;
 accountCity = "Isb"
