@@ -29,3 +29,17 @@ let inBooleanIsString = Boolean(isLogInString)
 console.log(inBooleanIsLoggedIn) // it wil give true
 console.log(inBooleanIsLog) // it will give false bcz vallue is empty
 console.log(inBooleanIsString) // it will give true bcz there is some value 
+
+
+//prefix and postfix operators
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
