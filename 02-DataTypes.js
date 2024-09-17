@@ -24,3 +24,5 @@ console.log(typeof undefined) // typeof undefined js gives is undefined
 
 // non primitive or reference data types - call by reference -mtlb reference allocate kia ja skta hai jesy address memory mai
 // arrays, objects, functions
+
+
