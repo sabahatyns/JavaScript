@@ -30,7 +30,6 @@ console.log(ageyear(5))//pass age when calling function// this is also abstracti
 // like this console.log(ageyear(5)) user can just add his age tio know the age year, he dont need to know what ageyear function is 
 //this is called abstraction- not showing the complexity for user
 
-
 //FACTORY FUNCTIONS
 // if we want to create two users we need  to write same code again again that is why we use afctory function to prevent this 
 function createuser(firstName, lastName, age) {
