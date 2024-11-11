@@ -70,5 +70,3 @@ function createuser(firstName, lastName, age) {
  //The line ageyearofuser: [Function: ageyearofuser] appears when you print the entire user object because it’s showing that ageyearofuser is a function, rather than executing it to show the result.
 
 //To display the birth year, you need to specifically call userOne.ageyearofuser() as a function.
-
-
