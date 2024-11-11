@@ -6,8 +6,6 @@ let isLoggedIn = true; // boolean
 // undefined --- mean variable is declared but value not assigned
 // symbol --uniqueness
 // object
- 
-
 
 console.log(typeof "sabahat") // typeof used to find data type of a value or variable
 console.log(typeof null) // typeof null js gives is object --remember that
@@ -20,7 +18,15 @@ console.log(typeof undefined) // typeof undefined js gives is undefined
 
 // seven primivttive data types are following
 //- string, number, boolean, null, undefined, symbol, bigint
-// data type of null is object in js REMEMBER
+// data type of null is object in js REMEMBER THAT
 
 // non primitive or reference data types - call by reference -mtlb reference allocate kia ja skta hai jesy address memory mai
 // arrays, objects, functions
+
+
+
+
+// MEMORY
+// two types of memory 
+//-stack memory , it includes primitive data types 
+// -heap memory , non-primitive data types
