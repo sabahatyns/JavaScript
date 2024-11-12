@@ -37,3 +37,7 @@ function exampleFunction () { // arrow function which start with const cant use 
 }
 const hi = new exampleFunction()
 console.log(hi) // will return object
+
+//CCONSTRUCTOR FUNCTION
+// when we call a function using new keyword it called constructor function like above 
+// when we dont use new keyword it is normal function
