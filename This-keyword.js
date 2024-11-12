@@ -23,3 +23,8 @@ console.log(userTwo.birthYearOfUser())// it will give error if we dont use this 
 
 
 console.log (userOne.birthYearOfUser === userTwo.birthYearOfUser) // it will give true bcz birthYearOfUser is saved in memory on one time
+
+// here we have achieved poly morphism but we have broken the rules for abstractiona nd encapsulation
+
+console.dir(createuser)
+
