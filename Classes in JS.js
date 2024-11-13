@@ -10,5 +10,3 @@ exampleClass.prototype.getBirthYear = function () {
 }
 console.log(Object.keys(exampleClass.prototype));// check methods in prototype of class exampleClass
 console.dir(exampleClass.prototype);// same check methods in porototype with details
-
-
