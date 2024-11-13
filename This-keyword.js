@@ -28,6 +28,10 @@ console.log(userOne.birthYearOfUser === userTwo.birthYearOfUser) // it will give
 
 console.dir(createuser)
 
+// below code will add thisbirthyearofuser in prototype of function createuser not in actual function
+// createuser.prototype.birthYearOfUser = function(){
+//     return new Date().getFullYear() - this.age
+// }
 
 
 //PROTOTYPE OF  A FUNCTION
