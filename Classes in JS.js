@@ -1,4 +1,4 @@
-// create class
+// classes in js -private and public classes
 class exampleClass {
     //add anything here its also like a function
     constructor(firstName, lastName, age) { // constructor is built in method 
