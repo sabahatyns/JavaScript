@@ -27,3 +27,21 @@ console.log(Name.length)// length of the string
 console.log(Name.toLocaleUpperCase()) //convert string to uppercase- ofcourse it will not change original value
 console.log(Name.charAt(6)) // what character is at position 6
 console.log(Name.indexOf("b")) // string mai b kis position pr hai
+console.log(Name.substring(0, 5)) // it will not incluse the  fifth element, we cant give negative value
+console.log(Name.slice(-5, 6)) // we can give slice negative value to reverse 
+//Correct, negative indices do not have a -0. more
+//ask chaatgpt for 
+
+const newString = "    YOUNAS    "  
+console.log(newString)
+console.log(newString.trim()) // remove spaces
+console.log(newString.trimStart()) // remove spaces froom start
+console.log(newString.trimEnd()) // remove spaces froom end
+
+const url = "https://www.fiverr.com%user%"
+console.log(url.replace("%", "-")) // replace % with -
+console.log(url.includes("fiverr")) // check if url has fiverr word. it will return true or false
+
+
+const anotherString = "Sabahat-Younas"
+console.log(anotherString.split("-")) // split where - dashes are
