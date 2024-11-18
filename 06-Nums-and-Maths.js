@@ -23,6 +23,8 @@ console.log(NumFour)
 
 //======================================Maths========================================//
 
+
+// Math is a built-in object in javascript
 console.log(Math)
 
 console.log(Math.abs(-5)) // it will change negative value to positive
@@ -39,6 +41,7 @@ console.log(Math.random()*10 ) // multiply that  random value to ten{ value will
 console.log((Math.random()*10) + 1) // value will be atleast one
 console.log(Math.floor(Math.random()*10) + 1) // kam wali value mai round off krdy ga floor
 
+// if you want to define min and max values
 const min = 5;
 const max =10
 
