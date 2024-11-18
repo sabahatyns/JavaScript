@@ -33,7 +33,7 @@ console.log(typeof newArray); // string
 
 
 //slice , splice
-console.log("A" , myArr); // original array
+console.log("A" , myArr); // original array - adding A, B C to show difference in original array and after using methods 
 
 const arraySlice = myArr.slice( 1, 3,) // it will not include third element
 console.log(arraySlice);
