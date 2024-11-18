@@ -7,7 +7,7 @@ console.log(myDate.toLocaleString());
 console.log(myDate.toLocaleString('default', {
     weekday: "long",
     month: "2-digit",
-    hour: "numeric"
+    hour: "numeric",
 }));
 console.log(myDate.toLocaleDateString());
 console.log(myDate.toLocaleTimeString());
