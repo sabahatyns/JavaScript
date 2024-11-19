@@ -24,22 +24,22 @@ console.log(newArrayAfterFlat);
 
 console.log(Array.isArray("SABAHAT")); /// check if it is an array
 console.log(Array.from("SABAHAT")); // make array from it
-console.log(Array.from({ name: 'SABAHAT' })); // WILL return empty array bcs we have to tell this is object 
+console.log(Array.from({name :  'SABAHAT'})); // WILL return empty array bcs we have to tell this is object 
 
 const valueone = 55;
 const valuetwo = 56;
 const valuethree = 5;
 
-console.log(Array.of(valueone, valuethree, valuetwo)); // make array
+console.log(Array.of(valueone, valuethree , valuetwo)); // make array
 
 const numbers = [1, 2, 3, 4, 5];
 
-numbers.forEach(function (num) {
+numbers.forEach(function(num) {
     console.log(num * 2); // Prints: 2, 4, 6, 8, 10
 });
 
 
-// FILTER METHOD
+ // FILTER METHOD
 // Keep only even numbers
 const evens = numbers.filter((num) => num % 2 === 0);
 
@@ -48,10 +48,10 @@ const fruits = ["apple", "banana", "cherry", "date"];
 
 // Keep only fruits with more than 5 characters
 // const longFruits = fruits.filter((fruit) => fruit.length > 5);  // ['banana', 'cherry']
-const longFruits = fruits.filter((fruit) => {
+const longFruits = fruits.filter((fruit) =>{
     return fruit.startsWith("a") // return what  start with a
 })
-console.log(longFruits);
+console.log(longFruits); 
 
 
 
@@ -74,13 +74,13 @@ console.log(result); // [10, 21, 32]
 const numberReduce = [1, 2, 3, 4, 5];
 
 const sum = numberReduce.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue;
+  return accumulator + currentValue;
 }, 0);
 //Each element is added to the accumulator.
 console.log(sum); // 15
 
 // another example of reduce
-const example = ["Hello", "World", "JAVASCRIPT"]
+const example = ["Hello" , "World" , "JAVASCRIPT"]
 
 const resultAfterReduce = example.reduce((accumulator, currentValue) => {
     return accumulator + " " + currentValue
