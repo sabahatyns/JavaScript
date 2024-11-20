@@ -18,6 +18,11 @@ const user = {
 console.log(user.location);// when we use  dot  we dont need to tell it is a string
 console.log(user["location"]);
 
+// destructuring
+const {location} = user
+console.log("Location" , location);
+
+
 console.log(user["full name"]);
 console.log(user[mySym]);
 

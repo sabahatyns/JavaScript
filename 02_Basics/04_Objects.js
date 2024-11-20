@@ -46,4 +46,20 @@ console.log(d);
 console.log(e);
 
 
+//DESTRUCTURING IN OBJECTS
+const user = {
+    name: "SABAHAT", // we can access by both methods
+    age: 5,
+    location: "PAKISTAN",
+    isLoggedIn : false,
+}
+
+const {location} = user
+console.log("location" , location);
+// we can also change of key like
+
+const { isLoggedIn : login} = user
+console.log("login" , login);
+
+
 
