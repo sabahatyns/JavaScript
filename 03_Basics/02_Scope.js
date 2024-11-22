@@ -6,7 +6,6 @@ if (true) {
     var c = 66;
     let d = 6;
     console.log("inside block value", d);//value of d inside this block will be 6  but outside will be global value
-
 }
 
 //console.log(a, b, c); // only var will be printed accesible but that should not be, that is why we dont use var anymore
