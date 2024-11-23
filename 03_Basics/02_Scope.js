@@ -10,3 +10,5 @@ if (true) {
 
 //console.log(a, b, c); // only var will be printed accesible but that should not be, that is why we dont use var anymore
 console.log("global scope value", d); 
+
+
