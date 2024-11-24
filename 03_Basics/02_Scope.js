@@ -26,3 +26,20 @@ function one() {
 one()
 
 //same scope logic will be applied in if else case
+
+//functiuons can be declraed in two ways like below
+//in first method we can cal variable before declaration
+one() //it will work
+function one(num) {
+    return num + 5
+}
+//or
+//the second method below sometime called expression. In this a variable holds function 
+//we cannot call it before declaration. 
+//two()   //it will give error
+const two = function (num) {
+    return num + 5
+}
+
+//we can call it here 
+two() //now it will work
