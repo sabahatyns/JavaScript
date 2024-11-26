@@ -17,13 +17,17 @@ console.log(this);// here this will refer empty
 
 function chaii(params) {
     const username = "hello"
-    //console.log(this.username); // we cant use this in function like this
-    
+    //console.log(this.username); // we cant use this keyword in function like this
+    console.log(this);//it will show so many things
+
 }
+chaii()
 
 // ====================================Arrow Function=======================================================//
 const addTwo =  (num, numTwo) => {
     return num + numTwo
+    console.log(this);//it will show empty object
+
 }
 
 //implicit return method
