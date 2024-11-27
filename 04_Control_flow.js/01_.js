@@ -1,8 +1,8 @@
 // = is used to assign value
 //== is used to check 
-//=== is used for  strict check ike data types too
+//=== is used for strict check like for value and data types too
 
-// >, <, >=, <=, 
+// >, <, >=, <=, ==, ===, !=, !==
 
 const balance = 555
 if (balance > 55) {
