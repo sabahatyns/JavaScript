@@ -41,5 +41,8 @@ const myCoding = [
 
 myCoding.forEach( (item) => {
     
-    console.log(item.languageName);
+    //console.log(item.languageName);
 } )
+
+
+//for each method does not return anything
