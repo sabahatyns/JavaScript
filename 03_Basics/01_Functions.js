@@ -6,6 +6,11 @@ function myName() {
 // call function
 myName()
 
+function sample(){
+    console.log("sample function is here");
+}
+sample()
+
 function addition(numbera, numberb) {// numbers are parameters
     console.log(numbera + numberb);
 
