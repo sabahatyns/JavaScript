@@ -24,7 +24,6 @@ for (let i = 0; i < 6; i++) {
 
 const myArray = ["superman", "batman", "rock", ]
 console.log(myArray.length);
-
 for (let index = 0; index < myArray.length; index++) {
     const element = myArray[index];
     console.log(element);
