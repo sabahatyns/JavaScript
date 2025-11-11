@@ -39,3 +39,10 @@ function chaii(params) {
 })();
 
     
+function name(){
+
+}
+
+const hello = () =>{
+    
+}

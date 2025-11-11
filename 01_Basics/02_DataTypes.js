@@ -13,7 +13,7 @@ console.log(typeof undefined) // typeof undefined js gives is undefined
 
 
 
-// data memory mai store kesy jhota haii or access kesy hota on that basis there arre two dataatypes
+// data memory mai store kesy hota haii or access kesy hota on that basis there arre two dataatypes
 // primitive data types  - these arre called by value -mtlb value  copy kr k di jati hai you can change data in that copy of value
 
 // seven primivtive data types are following
@@ -29,4 +29,4 @@ console.log(typeof undefined) // typeof undefined js gives is undefined
 // MEMORY
 // two types of memory 
 //-stack memory , it includes primitive data types 
-// -heap memory , non-primitive data types
+//-heap memory , non-primitive data types

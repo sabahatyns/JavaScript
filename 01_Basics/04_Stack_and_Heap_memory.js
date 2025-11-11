@@ -1,8 +1,8 @@
 //ALL PRIMITIVE DATA TYPES GOES IN STACK MEMORY AND NON-PRIMITIVE DATA TYPES GOES IN HEAP
 
 // STACK memory
-//when data is stored in stack memory, and then we change its value then the changes are made in copy of data nnot in the original data
-//Heap memory is the opposite of the stack memorys
+//when data is stored in stack memory, and then we change its value then the changes are made in copy of data not in the original data
+//Heap memory is the opposite of the stack memory
 
 let hello = "MyName";
 
